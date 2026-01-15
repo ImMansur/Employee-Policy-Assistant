@@ -6,6 +6,14 @@ A **Next.js-based application** that allows employees to ask questions about **c
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **[https://employee-policy-assistant.vercel.app/](https://employee-policy-assistant.vercel.app/)**
+
+> ⚠️ Demo uses limited sample policy data and is for **demonstration purposes only**.
+
+---
+
 ## 🚀 Features
 
 * Ask questions about **employee policies & handbook rules**
@@ -26,14 +34,13 @@ A **Next.js-based application** that allows employees to ask questions about **c
 * **Azure OpenAI**
 * **Azure AI Search**
 * **Azure Blob Storage**
-* Node.js
+* **Node.js**
 
 ---
 
 ## 🧩 Project Structure
 
 ```text
-Employee Policy Assistant/
 ├── app/                # Next.js app router
 │   ├── api/            # Server-side API routes (Azure calls)
 │   └── page.tsx        # Main UI page
@@ -73,7 +80,7 @@ AZURE_OPENAI_API_VERSION=2024-02-15-preview
 
 ---
 
-## ▶️ Run the Application (Local)
+## ▶️ Run the Application Locally
 
 ### 1️⃣ Install dependencies
 
@@ -127,10 +134,10 @@ http://localhost:3000
 ## ✏️ Customization
 
 * **Add / Modify Common Questions**
-  Update the buttons in your UI components.
+  Update the UI components to include additional shortcuts.
 
 * **Change Policy Scope**
-  Modify the Azure Search index or filtering logic.
+  Modify Azure Search index or filtering logic.
 
 * **Multi-Employee Support**
   Add authentication and user-based document filtering.
@@ -151,5 +158,3 @@ http://localhost:3000
 GitHub: [https://github.com/ImMansur](https://github.com/ImMansur)
 
 ---
-
-
