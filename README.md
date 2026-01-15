@@ -71,9 +71,6 @@ AZURE_OPENAI_DEPLOYMENT_NAME=<deployment-name>
 AZURE_OPENAI_API_VERSION=2024-02-15-preview
 ```
 
-> ⚠️ **Never commit `.env` to GitHub**
-> Make sure `.env` is listed in `.gitignore`.
-
 ---
 
 ## ▶️ Run the Application (Local)
